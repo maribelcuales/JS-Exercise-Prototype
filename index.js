@@ -123,8 +123,8 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
+  1. The first principle for 'this' is Window/Global Object Binding. This means that the value of this is the window or console object. 
+  2. Implicit Binding. The object before the dot is the value of this whenever a preceding dot calls a function.  
   3. 
   4. 
 */
