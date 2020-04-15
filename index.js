@@ -95,6 +95,10 @@ Car.prototype.drive = function(distance) {
     // STRETCH # 2: cause the tank to go down
     const driveMiles = distance / this.milesPerGallon;
     this.tank = this.tank - driveMiles;
+  } else {
+    this.odometer = this.odometer + maxDistance;
+    this.tank = 0;
+    return `I ran out of fuel at ${this.odometer} miles!`
   }
  
   //this.tank = this.tank - distance / this.milesPerGallon;
