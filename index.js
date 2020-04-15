@@ -99,19 +99,20 @@ Car.prototype.drive = function(distance) {
     this.odometer = this.odometer + maxDistance;
     this.tank = 0;
     return `I ran out of fuel at ${this.odometer} miles!`
-  }
- 
-  //this.tank = this.tank - distance / this.milesPerGallon;
-
-  // if(this.tank <= 0) {
-  //  this.odometer = 0;
-  //  this.odometer += distance - 1;
-  //  this.tank = 0; 
-  //  return `I ran out of fuel at ${this.odometer} miles!`
-  //} 
+  } 
 }
 
+const batMobile = new Car('Bat Mobile', 20)
 
+console.log(batMobile);
+batMobile.fill(10);
+console.log(batMobile);
+batMobile.drive(100);
+console.log(batMobile);
+batMobile.drive(100);
+console.log(batMobile);
+batMobile.drive(100);
+console.log(batMobile);
 
 /*
   TASK 3
