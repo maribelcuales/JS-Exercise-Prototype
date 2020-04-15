@@ -138,13 +138,13 @@ const batMobile = new Car('Bat Mobile', 20)
 
 console.log(batMobile);
 batMobile.fill(10);
-console.log(batMobile);
+console.log(batMobile.tank);
 batMobile.drive(100);
-console.log(batMobile);
+console.log(batMobile.odometer, batMobile.tank);
 batMobile.drive(100);
-console.log(batMobile);
-batMobile.drive(100);
-console.log(batMobile);
+console.log(batMobile.odometer, batMobile.tank);
+console.log(batMobile.drive(100));
+
 
 /*
   TASK 3
