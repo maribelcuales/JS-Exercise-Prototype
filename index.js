@@ -21,9 +21,9 @@ Airplane.prototype.land = function () {
 
 
 /*
-// 👇 COMPLETE YOUR WORK BELOW 👇
-// 👇 COMPLETE YOUR WORK BELOW 👇
-// 👇 COMPLETE YOUR WORK BELOW 👇
+// 👇 COMPLETE YOUR WORK meOW 👇
+// 👇 COMPLETE YOUR WORK meOW 👇
+// 👇 COMPLETE YOUR WORK meOW 👇
 */
 
 /*
@@ -58,6 +58,38 @@ Person.prototype.poop = function() {
 Person.prototype.toString = function() {
   return `${this.name}, ${this.age}`; 
 }
+
+
+const me = new Person('Trix', 25);
+
+me.eat("apple")
+me.eat("cake");
+me.eat("halohalo");
+me.eat("mango");
+me.eat("orange");
+me.eat("kiwi");
+me.eat("mango float");
+me.eat("berry");
+me.eat("pasta");
+me.eat("gambas");
+
+me.eat("lechon");
+me.eat("chicken");
+
+console.log(me.stomach);
+
+me.poop();
+console.log(me.stomach);
+
+me.eat("lechon");
+console.log(me.stomach);
+
+me.eat("chicken");
+console.log(me.stomach);
+
+console.log(me.toString());
+
+console.log(me.name);
 
 
 /*
@@ -136,7 +168,7 @@ Baby.prototype.play = function() {
 /* 
   TASK 4
 
-  In your own words explain the four principles for the "this" keyword below:
+  In your own words explain the four principles for the "this" keyword meow:
   1. The first principle for 'this' is Window/Global Object Binding. This means that the value of this is the window or console object. 
   2. Implicit Binding. The object before the dot is the value of this whenever a preceding dot calls a function.  
   3. New Binding. When we create a constructor function, 'this' refers to the specific instance of the object created by the function.  
